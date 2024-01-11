@@ -6,6 +6,7 @@ using StarterAssets;
 public class PlayerRagdoll : MonoBehaviour
 {
     [SerializeField] private ThirdPersonController _thirdPersonController;
+    [SerializeField] private Animator _animator1;
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private Animator _animator;
     [SerializeField] private Transform _mainTransform;
